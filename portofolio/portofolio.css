@@ -1,0 +1,94 @@
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+}
+header {
+  background-color: rgb(255, 128, 0);
+
+}
+#Fares{
+  background-color: rgb(255, 128, 0);
+  justify-content: space-between;
+  color: white;
+  display: flex;
+  gap: 10px;
+  font-size: 150%;
+  flex-direction:row;
+  border: 1px black solid;
+  padding: 20px;
+ align-content: space-between;
+ align-items: center;
+
+}
+.cc{
+ padding: 10px;
+ display: flex;
+flex-direction:row ;
+justify-content: space-between;
+align-content: center;
+gap: 40px;
+align-items: center;
+  
+}
+header nav a{
+  color: white;
+}
+a{
+  text-decoration: none;
+}
+ img {
+  border-radius: 50%;
+  height: 200px;
+  width: 250px;
+  transition: all 200ms ease-out;
+}
+img:hover {
+  box-shadow: 5px 5px 10px black;
+  cursor: pointer;
+  width: 300px;
+  height: 250px;
+}
+
+body {
+  font-family: "Roboto", sans-serif;
+  font-weight: 300;
+  font-style: normal;
+  background-color: bisque;
+}
+.Portofolio{
+  background-color: rgb(22, 106, 142);
+  color: white;
+  justify-content: center;
+  text-align: center;
+  align-items: center;
+  display: flex;
+  margin: 40px;
+  padding: 50px;
+  font-size: 200%;
+  flex-direction: column;
+  border-radius: 25%;
+  
+}
+button{
+  background-color: rgb(42, 193, 178);
+  color: white;
+  font-size: large;
+  font-weight: bold;
+  border-radius: 20%;
+  padding: 20px;
+  width: 200px;
+  transition: all 300ms;
+
+}
+button:hover{
+  background-color: rgb(170, 231, 234);
+  box-shadow: 7px 7px 7px white;
+  cursor: pointer;
+  width: 300px;
+  color: black;
+  
+}
+
+
+
